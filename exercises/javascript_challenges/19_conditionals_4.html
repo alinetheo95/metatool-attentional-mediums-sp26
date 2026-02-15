@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="jc.css" rel="stylesheet" />
+</head>
+<body>
+
+  <h1>Javascript Challenges</h1>
+  <h3>Conditionals: Part 4</h3>
+  <p>We can use <code>else</code> and <code>else if</code> to handle different cases. Only one block runs -- the first one whose condition is true. If none are true, the <code>else</code> block runs.</p>
+
+  <h4>Challenge: Can you add an <code>else if</code> case so that when the counter is between 5 and 9, the status shows "medium"?</h4>
+
+  <button onclick="incrementCounter()">Increment counter</button>
+
+  <div id="counter-value">0</div>
+  <div id="status">small</div>
+
+<script>
+
+  var counter = 0;
+
+  function incrementCounter() {
+    counter = counter + 1;
+    document.getElementById('counter-value').innerText = counter;
+
+    if(counter < 5) {
+      document.getElementById('status').innerText = "small";
+    } else {
+      document.getElementById('status').innerText = "large";
+    }
+
+  }
+
+</script>
+
+
+</body>
+</html>
