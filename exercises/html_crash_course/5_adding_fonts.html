@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Fonts</title>
+    <style>
+
+      .day-report {
+        font-size: 1.1em;
+        max-width: 600px;
+        padding: 20px;
+        border: 1px dashed #777;
+        background-color: #FFFFFF;
+        color: rgb(0,0,0);
+        margin-bottom: 20px;
+      }
+
+      .date {
+        color: #888;
+      }
+
+      .title {
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .description {
+        line-height: 1.5;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Adding Google Fonts</h2>
+
+      <p>So far, your page is using the browser's default font. <a href="https://fonts.google.com/">Google Fonts</a> offers hundreds of free fonts you can add to any webpage.</p>
+
+      <h4>How it works</h4>
+
+      <p>Adding a Google Font requires two steps:</p>
+      <ol>
+        <li><b>Link to the font</b> — Add a special <code>&lt;link&gt;</code> tag in your <code>&lt;head&gt;</code> that loads the font from Google's servers.</li>
+        <li><b>Use it in CSS</b> — Add <code>font-family</code> to your CSS rules to apply the font.</li>
+      </ol>
+
+      <h4>Step-by-step</h4>
+
+      <ol>
+        <li>Go to <a href="https://fonts.google.com/">fonts.google.com</a> and browse for a font you like.</li>
+        <li>Click on a font, then click "Get font" and "Get embed code".</li>
+        <li>Copy the <code>&lt;link&gt;</code> code and paste it into the <code>&lt;head&gt;</code> section of this file (above the <code>&lt;style&gt;</code> tag).</li>
+        <li>Google will also show you CSS like this:
+          <pre>font-family: "Roboto", sans-serif;</pre>
+          Add that line to any CSS class you want to style. For example, to change the title font, add it to <code>.title</code>.</li>
+      </ol>
+
+      <h4>Example element</h4>
+
+      <p>Here's the same <code>.day-report</code> element from the previous lesson. Try adding a Google Font to it:</p>
+
+      <div class="day-report">
+        <div class="date">2/7/2026</div>
+        <div class="title">Observation on typography and readability</div>
+        <div class="description">Typography affects how people read and feel about content. A well-chosen font can make text easier to read, convey personality, and create visual hierarchy. Try different fonts and notice how the same words feel different.</div>
+      </div>
+
+      <h4>Challenge</h4>
+
+      <p><b>Add a Google Font to this page.</b> Some suggestions:</p>
+      <ul>
+        <li>Try a serif font (like "Lora" or "Merriweather") for the description text</li>
+        <li>Try a bold sans-serif (like "Montserrat" or "Oswald") for the title</li>
+        <li>Try applying different fonts to different classes</li>
+      </ul>
+
+      <p>You'll know it worked when the text in the card above looks noticeably different from the default browser font.</p>
+
+    </div>
+
+  </body>
+</html>
