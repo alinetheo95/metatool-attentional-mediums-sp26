@@ -1,8 +1,13 @@
 # Exercises
 
-This folder contains course exercises. **Do not edit files here directly** — copy them into your personal folder instead.
+These are a set of active learning / problem-solving puzzles -- learning-by-doing, rather than learning-by-watching-videos. The challenges are designed to be (somewhat) fun, and also to highly limit the scope of each problem, so that learners can tackle one aspect of HTML/JS at a time.
+
+--
+
 
 ## Getting Started
+
+This folder contains course exercises. **Do not edit files here directly** — copy them into your personal folder instead.
 
 To work on exercises, you'll need to create your own copy of this repository.
 
@@ -51,3 +56,14 @@ Replace `YOUR-USERNAME` with your actual GitHub username.
 ### Step 4: Submit Your Work
 
 When you're ready to submit, commit your changes and open a pull request from your fork back to the main repository. Your PR should **only** add or change files inside `people/your-username/`.
+
+--
+
+### References / precedents for learning-by-doing:
+
+* [Unfinished Asteroids, by Rezoner](https://github.com/rezoner/unfinished-asteroids/wiki)
+* [How to Solve it, by George Polya](https://en.wikipedia.org/wiki/How_to_Solve_It)
+* [The Careful Design of Cave Story](https://www.soldierfromthesurface.com/games/cavestory/)
+* [Allison Parrish's Programming Exercise B for RWET](https://gist.github.com/aparrish/7be6ecf2d6b761f90c09/)
+* [Experience and Education, by John Dewey](https://en.wikipedia.org/wiki/Experience_and_Education_(book))
+
